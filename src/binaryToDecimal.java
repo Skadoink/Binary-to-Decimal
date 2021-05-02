@@ -23,7 +23,6 @@ public class binaryToDecimal {
         System.out.print("Enter the binary number: ");
         String binaryStr = myObj.nextLine(); 
         System.out.println("You entered " + binaryStr + ".");
-        myObj.close();
         checkBinary(binaryStr); //call method to check validity
     }
 
